@@ -16,7 +16,7 @@
     <Filter Include="Исходные файлы\PersonFilter">
       <UniqueIdentifier>{08c0ff65-c435-4aa2-a5b2-3b9d416a2613}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Исходные файлы\CliiFlter">
+    <Filter Include="Исходные файлы\CliFilter">
       <UniqueIdentifier>{bae686c0-d896-4c3f-afd1-56edb1b9349f}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -31,13 +31,13 @@
       <Filter>Исходные файлы\PersonFilter</Filter>
     </ClCompile>
     <ClCompile Include="CLI.cpp">
-      <Filter>Исходные файлы\CliiFlter</Filter>
+      <Filter>Исходные файлы\CliFilter</Filter>
     </ClCompile>
     <ClCompile Include="Teacher.cpp">
       <Filter>Исходные файлы\PersonFilter</Filter>
     </ClCompile>
     <ClCompile Include="Container.cpp">
-      <Filter>Исходные файлы\CliiFlter</Filter>
+      <Filter>Исходные файлы\CliFilter</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
