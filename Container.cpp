@@ -33,17 +33,15 @@ std::string Container::GetFullInfo()
 
 void Container::ConvertToTxt()
 {
-	//std::string info = this->GetFullInfo();
+	std::string info = this->GetFullInfo();
 
-	//std::ifstream file("D:\\Final - master\\TxtDir"); // окрываем файл для чтения
-	//if (file.is_open())
-	//{
-	//	while (std::getline(file, info))
-	//	{
-	//		std::cout << info << std::endl;
-	//	}
-	//}
-	//file.close();
+	std::ofstream out;          // поток для записи
+	out.open("D:\\final.txt"); // окрываем файл для записи
+	if (out.is_open())
+	{
+		out << info << std::endl;
+	}
+	out.close();
 }
 
 Container::~Container()
